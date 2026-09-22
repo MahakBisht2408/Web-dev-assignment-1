@@ -1,62 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mahak Bisht- Portfolio</title>
 </head>
+
 <body>
-    <h1>MAHAK BISHT</h1>
-    <ul>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-       <li><a href="contact.html">CONTACTS</a></li>
-   </ul>
-   <h2>Welcome to my portfolio</h2>
-   <p>Hello! Iam a web development student.This is my personal portfolio website.</p>
-   <h2>About me</h2>
-   <img src="/image/user-profile-icon-woman-avatar-for-social-media-blogs-forums-or-online-work-vector.jpg" height =  "200px" width = "200px">
-   <p>Iam passionate about learning web development and building creative projects.</p>
-   <h2>My projects</h2>
-   <ul>
-    <li><b>Portfolio website: A personal one-page website to showcase your bio,skills,and contact details. </b> </li>
-    <li><b>Medium clone:  A simple blog layout that look like Medium,built only with HTML and CSS.</b></li>
-    <li><b>Birthday card:A creative greeting carde webpage designed by HTML structure and CSS styling.</b></li>
-    <li><b>User form:A form webpage with fields like name,email,and message for practicing form handling.</b></li>
-</ul>
- <h2>Technical skills</h2>
-<table border="1" cellspacing="10" cellpading="10">
-    <tr>
-        <th><b>Skills</b></th>
-        <th><b>Level</b></th>
-    </tr>
-    <tr>
-    <td>HTML</td>
-    <td>beginner</td>
-  <tr>
-    <td> CSS</td>
-    <td>beginner</td>
-    </tr>
-  <tr>
-    <td>Javacript</td>
-    <td>Learning</td>
- </tr>
- <table>
-    <h3>CONTACT ME</h3>
-    <form>
-        <label>Name:</label>
-        <input type="text" placeholder="Enter your name">
-        <br>
-        <br>
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your name">
-        <br>
-        <br>
-       <label>Message:</label>
-        <textarea placeholder="Enter your message"></textarea>
-    </form>
-    <br>
-    <button type=""submit> send</button>
+
+    <header>
+        <h1>MAHAK BISHT</h1>
+
+        <nav>
+            <a href="#home">HOME</a> | 
+            <a href="#about">ABOUT</a> |
+            <a href="#projects">PROJECTS</a> |
+            <a href="#skills">SKILLS</a> |
+            <a href="#contact">CONTACT</a> 
+            
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to my Portfolio</h2>
+
+            <p>
+                Hello! I am Mahak Bisht, a B.Tech CSE Student.
+                Welcome to my personal portfolio website.
+            </p>
+
+            <img src="image/images.jpg" alt="Profile picture" width="200">
+        </section>
+
+
+        <section id="about">
+            <h2>About me</h2>
+
+            <p>
+                Hello! I am Mahak Bisht, I am a student of
+                B.Tech CSE Core studying at KR Mangalam University.
+                This is an about page I am making for my HTML project.
+            </p>
+        </section>
+
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <b>Portfolio Website:</b>
+                    A personal one-page website to showcase my
+                    skills, projects and contact details.
+                </li>
+
+                <li>
+                    <b>Medium Clone:</b>
+                    A simple blog layout that looks like Medium,
+                     built only with HTML and CSS.
+                </li>
+
+                <li>
+                    <b>Birthday Card:</b>
+                    A creative digital birthday card designed
+                    by HTML structure and CSS styling.
+                </li>
+
+    
+                <li>
+                    <b>User Form:</b>
+                    A form webpage with fields like name,
+                    email and message for practicing form handling.
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <table border="1" cellspacing="10" cellpadding="10">
+
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Learning</td>
+                </tr>
+
+            </table>
+        </section>
+
+
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <br>
+
+                <input
+                    type="text"id="name"name="name"placeholder="Enter your name"
+                    required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+
+                <input
+                    type="email"id="email"name="email"placeholder="Enter your email"
+                    required>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+
+                <textarea
+                    id="message"name="message"placeholder="Enter your Message"
+                    required></textarea>
+
+                <br><br>
+
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Mahak Bisht</p>
+    </footer>
 
 </body>
+
 </html>
